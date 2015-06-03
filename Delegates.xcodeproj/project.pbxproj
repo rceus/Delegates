@@ -14,6 +14,7 @@
 		32956AA31B1F775800510D91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32956AA21B1F775800510D91 /* Images.xcassets */; };
 		32956AA61B1F775800510D91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32956AA41B1F775800510D91 /* LaunchScreen.xib */; };
 		32956AB21B1F775800510D91 /* DelegatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32956AB11B1F775800510D91 /* DelegatesTests.m */; };
+		32956ABD1B1F779600510D91 /* MTSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 32956ABC1B1F779600510D91 /* MTSlider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		32956AAB1B1F775800510D91 /* DelegatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32956AB01B1F775800510D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32956AB11B1F775800510D91 /* DelegatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegatesTests.m; sourceTree = "<group>"; };
+		32956ABB1B1F779600510D91 /* MTSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSlider.h; path = ../MTSlider.h; sourceTree = "<group>"; };
+		32956ABC1B1F779600510D91 /* MTSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTSlider.m; path = ../MTSlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		32956A941B1F775800510D91 /* Delegates */ = {
 			isa = PBXGroup;
 			children = (
+				32956ABB1B1F779600510D91 /* MTSlider.h */,
+				32956ABC1B1F779600510D91 /* MTSlider.m */,
 				32956A991B1F775800510D91 /* AppDelegate.h */,
 				32956A9A1B1F775800510D91 /* AppDelegate.m */,
 				32956A9C1B1F775800510D91 /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32956A9E1B1F775800510D91 /* ViewController.m in Sources */,
+				32956ABD1B1F779600510D91 /* MTSlider.m in Sources */,
 				32956A9B1B1F775800510D91 /* AppDelegate.m in Sources */,
 				32956A981B1F775800510D91 /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				32956AB71B1F775800510D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32956AB81B1F775800510D91 /* Build configuration list for PBXNativeTarget "DelegatesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				32956ABA1B1F775800510D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
